@@ -1,0 +1,285 @@
+[
+  {
+    "id": "1",
+    "slug": "arandela-cobre-6x10x1mm",
+    "nombre": "Arandela Cobre 6x10x1mm",
+    "precio": 14000,
+    "descripcion": "Arandela de cobre de alta calidad 6x10x1mm",
+    "imagen": "assets/images/Arandela Cobre6x10jpeg.jpeg",
+    "categoria": "arandelas",
+    "badge": "Nuevo",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "2",
+    "slug": "arandela-cobre-8x12x1mm",
+    "nombre": "Arandela cobre de 8x12x1.mm",
+    "precio": 18000,
+    "descripcion": "Arandela de cobre de alta calidad 8x12x1mm",
+    "imagen": "assets/images/Arandela cobre de 8x12x1.mm.jpeg",
+    "categoria": "arandelas",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "3",
+    "slug": "arandela-cobre-10x15x1",
+    "nombre": "Arandela cobre de 10x15x1",
+    "precio": 22500,
+    "descripcion": "Arandela de cobre de alta calidad 10x15x1",
+    "imagen": "assets/images/10x15x1,5jpeg.jpeg",
+    "categoria": "arandelas",
+    "badge": "Más vendido",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "4",
+    "slug": "arandela-base-cobre-12x18x15",
+    "nombre": "Arandelas Base en Cobre 12x18x1,5",
+    "precio": 27500,
+    "descripcion": "Arandelas de base en cobre 12x18x1,5mm",
+    "imagen": "assets/images/12x18x1,5mm.jpeg",
+    "categoria": "arandelas",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "5",
+    "slug": "arandela-base-cobre-14x20x15",
+    "nombre": "Arandelas Base en Cobre 14x20x1,5mm",
+    "precio": 32500,
+    "descripcion": "Arandelas de base en cobre 14x20x1,5mm",
+    "imagen": "assets/images/14x20x1,5.mmjpeg.jpeg",
+    "categoria": "arandelas",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "6",
+    "slug": "arandela-base-cobre-16x22x15",
+    "nombre": "Arandela De Base Cobre 16x22x1,5",
+    "precio": 37500,
+    "descripcion": "Arandela de base en cobre 16x22x1,5mm",
+    "imagen": "assets/images/12x22x1,5.jpeg",
+    "categoria": "arandelas",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "7",
+    "slug": "arandela-inyector-cummins-6bt",
+    "nombre": "Arandela Inyector Cummins 6BT. 7,5x15x1,5",
+    "precio": 15000,
+    "descripcion": "Arandela para inyector Cummins 6BT 7,5x15x1,5mm",
+    "imagen": "assets/images/Arandela Inyector Cummins 6BT. 7,5x15x1,5.jpeg",
+    "categoria": "arandelas",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "8",
+    "slug": "arandela-tuberia-diesel-tipo-b",
+    "nombre": "Arandela tuberia Diesel Tipo B",
+    "precio": 65000,
+    "descripcion": "Cono tipo B para tubería diesel",
+    "imagen": "assets/images/Cono Tipo B.jpeg",
+    "categoria": "arandelas-tipo-cono",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "9",
+    "slug": "arandela-tuberia-diesel-tipo-a",
+    "nombre": "Arandela tuberia Diesel Tipo A",
+    "precio": 65000,
+    "descripcion": "Cono tipo A para tubería diesel",
+    "imagen": "assets/images/Cono tipo A.jpeg",
+    "categoria": "arandelas-tipo-cono",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "10",
+    "slug": "arandela-inyector-cummins-professional",
+    "nombre": "Arandela Inyector Cummins 6BT",
+    "precio": 75000,
+    "descripcion": "Arandela profesional para inyector Cummins 6BT 7,5x15x1,5",
+    "imagen": "assets/images/Arandela Inyector Cummins 6BT. 7,5x15x1,5.jpeg",
+    "categoria": "arandela-inyector",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "11",
+    "slug": "arandela-inyector-mack-perkins",
+    "nombre": "Arandela Inyector Mack, Perkins",
+    "precio": 75000,
+    "descripcion": "Arandela para inyector Mack, Perkins 9,5x18x1,5",
+    "imagen": "assets/images/Arandela Inyector Mack, Perkins, 9,5x18x1,5..jpeg",
+    "categoria": "arandela-inyector",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "12",
+    "slug": "arandela-base-inyectores-electronicos",
+    "nombre": "Arandela base de Inyectores Electrónicos",
+    "precio": 75000,
+    "descripcion": "Arandela base de Inyectores Electrónicos tipo Bosch, 7,5x15x1,5.",
+    "imagen": "assets/images/Arandela base de Inyectores Electrónicos tipo Bosch, 7,5x15x1,5..jpeg",
+    "categoria": "arandela-inyector",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "13",
+    "slug": "arandela-bronce-punta-inyector-nkr",
+    "nombre": "Arandela en bronce de punta de inyector NKR",
+    "precio": 75000,
+    "descripcion": "Arandela en bronce para punta de inyector NKR",
+    "imagen": "assets/images/Arandela en bronce de punta de inyector NKR.jpeg",
+    "categoria": "arandela-conica-punta-inyector",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "14",
+    "slug": "arandela-bronce-punta-inyector-npr",
+    "nombre": "Arandela bronce de punta de Inyector NPR.",
+    "precio": 75000,
+    "descripcion": "Arandela en bronce para punta de inyector NPR",
+    "imagen": "assets/images/Arandela en bronce de punta de inyector NKR.jpeg",
+    "categoria": "arandela-conica-punta-inyector",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "15",
+    "slug": "arandela-bronce-punta-inyector-nqr",
+    "nombre": "Arandela bronce punta de Inyector NQR REWARD.",
+    "precio": 75000,
+    "descripcion": "Arandela en bronce para punta de inyector NQR REWARD",
+    "imagen": "assets/images/Arandela bronce punta de Inyector NQR REWARD..jpeg",
+    "categoria": "arandela-conica-punta-inyector",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "16",
+    "slug": "arandela-doble-retorno-aluminio-8mm",
+    "nombre": "Arandela doble de retorno en aluminio de 8mmL",
+    "precio": 30000,
+    "descripcion": "Arandela doble de retorno en aluminio de 8mm",
+    "imagen": "assets/images/arandela doble a de reotorno aluminio 8m.jpeg",
+    "categoria": "arandela-doble-retorno",
+    "paquete": "Paquetes de 50 unidades"
+  },
+  {
+    "id": "17",
+    "slug": "arandela-doble-retorno-aluminio-10mm",
+    "nombre": "Arandela doble de retorno en aluminio de 10mm.L",
+    "precio": 30000,
+    "descripcion": "Arandela doble de retorno en aluminio de 10mm",
+    "imagen": "assets/images/Arandela doble de retorno en aluminio de 10mm..jpeg",
+    "categoria": "arandela-doble-retorno",
+    "paquete": "Paquetes de 50 unidades"
+  },
+  {
+    "id": "18",
+    "slug": "arandela-aluminio-retorno-125x22x1",
+    "nombre": "Arandela de aluminio de retorno 12,5x22x1.",
+    "precio": 30000,
+    "descripcion": "Arandela de aluminio de retorno 12,5x22x1",
+    "imagen": "assets/images/Arandela de aluminio de retorno 12,5x22x1..jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquetes de 50 unidades"
+  },
+  {
+    "id": "19",
+    "slug": "arandela-aluminio-kia-pregio",
+    "nombre": "Arandela de aluminio de retorno de Kia Pregio 12x19x1",
+    "precio": 15000,
+    "descripcion": "Arandela de aluminio de retorno para Kia Pregio 12x19x1",
+    "imagen": "assets/images/Arandela de aluminio de retorno de Kia Pregio de 12x19x1.jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "20",
+    "slug": "arandela-aluminio-6x10x1",
+    "nombre": "Arandela de aluminio 6x10x1",
+    "precio": 15000,
+    "descripcion": "Arandela de aluminio 6x10x1",
+    "imagen": "assets/images/Arandela de aluminio de 6x10x1.jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "21",
+    "slug": "arandela-aluminio-8x12x1",
+    "nombre": "Arandela de aluminio 8x12x1",
+    "precio": 15000,
+    "descripcion": "Arandela de aluminio 8x12x1",
+    "imagen": "assets/images/Arandela de aluminio de 8x12x1..jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "22",
+    "slug": "arandela-aluminio-10x15x1",
+    "nombre": "Arandela de aluminio 10x15x1",
+    "precio": 15000,
+    "descripcion": "Arandela de aluminio 10x15x1",
+    "imagen": "assets/images/Arandela de aluminio de 10x15x1.jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "23",
+    "slug": "arandela-aluminio-12x18x1",
+    "nombre": "Arandela de aluminio 12x18x1",
+    "precio": 15000,
+    "descripcion": "Arandela de aluminio 12x18x1",
+    "imagen": "assets/images/Arandela de aluminio de 12x18x1.jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "24",
+    "slug": "arandela-aluminio-14x20x1",
+    "nombre": "Arandela de aluminio 14x20x1",
+    "precio": 15000,
+    "descripcion": "Arandela de aluminio 14x20x1",
+    "imagen": "assets/images/Arandela de aluminio de 14x20x1..jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "25",
+    "slug": "arandela-aluminio-16x22x15",
+    "nombre": "Arandela de aluminio 16x22x1,5",
+    "precio": 15000,
+    "descripcion": "Arandela de aluminio 16x22x1,5",
+    "imagen": "assets/images/Arandela de aluminio de 16x22x1,5..jpeg",
+    "categoria": "arandela-aluminio",
+    "paquete": "Paquete de 50 unidades"
+  },
+  {
+    "id": "26",
+    "slug": "mini-kit-arandelas-cobre",
+    "nombre": "Mini kit surtido de arandelas en cobre",
+    "precio": 15000,
+    "descripcion": "Mini kit con surtido variado de arandelas de cobre",
+    "imagen": "assets/images/Mini kit , surtido de arandelas en cobre..jpeg",
+    "categoria": "mini-kits",
+    "paquete": "Paquete por unidad"
+  },
+  {
+    "id": "27",
+    "slug": "mini-estuche-surtido",
+    "nombre": "Mini estuche surtido de arandela de cobre y O-ring",
+    "precio": 15000,
+    "descripcion": "Mini estuche surtido de arandela de cobre y O-ring pequeño y mediano",
+    "imagen": "assets/images/minikit.jpeg",
+    "categoria": "mini-kits",
+    "badge": "Más vendido",
+    "paquete": "Paquete por unidad"
+  },
+  {
+    "id": "28",
+    "slug": "caja-oring-tipo-b",
+    "nombre": "Caja oring Tipo B",
+    "precio": 15000,
+    "descripcion": "Caja completa de O-rings tipo B",
+    "imagen": "assets/images/Caja Oring tipoB .jpeg",
+    "categoria": "oring",
+    "paquete": "Paquete por unidad"
+  }
+]

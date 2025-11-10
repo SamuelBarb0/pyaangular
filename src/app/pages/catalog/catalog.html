@@ -1,0 +1,71 @@
+<!-- Banner de Página -->
+<section class="page-banner">
+  <div class="container">
+    <h1>Nuestro Catálogo</h1>
+    <p>Descubre nuestra amplia gama de productos automotrices</p>
+  </div>
+</section>
+
+<!-- Catálogo de Productos -->
+<section class="catalog-section">
+  <div class="container">
+    <div class="filters">
+      <div class="filter-group">
+        <label for="category">Categoría:</label>
+        <select id="category" [(ngModel)]="selectedCategory" (change)="onCategoryChange()">
+          <option value="all">Todos</option>
+          <option value="arandelas">Arandelas</option>
+          <option value="arandelas-tipo-cono">Arandelas Tipo Cono</option>
+          <option value="arandela-inyector">Arandela Inyector</option>
+          <option value="arandela-conica-punta-inyector">Arandela cónica de punta de inyector</option>
+          <option value="arandela-doble-retorno">Arandela doble de retorno</option>
+          <option value="arandela-aluminio">Arandela de aluminio</option>
+          <option value="mini-kits">Mini kits</option>
+          <option value="oring">O-ring</option>
+          <option value="aditivos">Aditivos</option>
+          <option value="bombas">Bombas de Inyección</option>
+          <option value="turbos">Turbos</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="price">Precio:</label>
+        <select id="price" [(ngModel)]="selectedPriceRange" (change)="onPriceChange()">
+          <option value="all">Todos</option>
+          <option value="0-50">$0 - $50.000</option>
+          <option value="50-100">$50.000 - $100.000</option>
+          <option value="100-500">$100.000 - $500.000</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="products-grid">
+      @for (product of filteredProducts; track product.id) {
+        <div class="product-card">
+          <div class="product-image">
+            <img [src]="product.imagen" [alt]="product.nombre">
+            @if (product.badge) {
+              <span class="product-badge">{{ product.badge }}</span>
+            }
+          </div>
+          <div class="product-info">
+            <h3>{{ product.nombre }}</h3>
+            <p>{{ product.paquete }}</p>
+            <div class="product-price">{{ formatPrice(product.precio) }}</div>
+            <a [routerLink]="['/producto', product.slug]" class="btn">Ver Detalles</a>
+          </div>
+        </div>
+      }
+
+      @if (filteredProducts.length === 0) {
+        <div class="no-products">
+          <p>No se encontraron productos con los filtros seleccionados.</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/573232264555" class="floating-whatsapp" target="_blank" aria-label="Abrir chat de WhatsApp">
+  <img src="assets/images/ChatBot.png" alt="Chat WhatsApp">
+</a>

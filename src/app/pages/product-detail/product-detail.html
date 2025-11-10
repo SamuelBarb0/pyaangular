@@ -1,0 +1,47 @@
+@if (loading) {
+  <div class="loading">Cargando...</div>
+}
+
+@if (product) {
+  <main>
+    <section class="producto-detalle">
+      <div class="container">
+        <div class="producto-grid">
+          <aside class="producto-imagenes" aria-label="Galería de imágenes del producto">
+            <div class="producto-tarjeta">
+              <img [src]="product.imagen" [alt]="product.nombre" class="producto-img-principal">
+            </div>
+          </aside>
+
+          <article class="producto-info">
+            <div class="producto-info-header">
+              <h1 class="producto-titulo">{{ product.nombre }}</h1>
+            </div>
+
+            <div class="producto-precio">{{ formatPrice(product.precio) }}</div>
+
+            <p class="producto-descripcion">{{ product.descripcion }}</p>
+            @if (product.paquete) {
+              <p class="producto-paquete"><strong>{{ product.paquete }}</strong></p>
+            }
+
+            <a href="https://wa.me/573232264555" class="btn-cta" target="_blank">
+              <i class="fab fa-whatsapp"></i> Comprar por WhatsApp
+            </a>
+
+            <div class="producto-bloques">
+              <div class="bloque-info">
+                <i class="fas fa-truck" aria-hidden="true"></i>
+                <span>Envíos a toda Colombia</span>
+              </div>
+              <div class="bloque-info">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                <span>Contáctanos por WhatsApp / Para más información</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+}

@@ -1,0 +1,150 @@
+/* Banner de Página Contacto */
+.page-banner {
+    background: white;
+    color: #000;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.page-banner h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 700;
+}
+
+.page-banner img {
+    max-width: 50px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.page-banner p {
+    color: #000;
+}
+
+/* Contacto */
+.contact-section {
+    padding: 60px 0;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+}
+
+.contact-info {
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.info-item i {
+    font-size: 24px;
+    color: #000;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.info-item h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.contact-form {
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--secondary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact-form .btn {
+    background: #FF894C;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form .btn:hover:not(:disabled) {
+    background: #e67e3d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.submit-message {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.map-container {
+    margin-top: 60px;
+}
+
+.map {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,52 @@
+<!-- Hero Section con Carousel -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="carousel-container">
+      @for (image of carouselImages; track $index) {
+        <img
+          [src]="image"
+          [alt]="'Imagen ' + ($index + 1)"
+          class="hero-image centered"
+          [class.active]="$index === currentImageIndex">
+      }
+    </div>
+  </div>
+</section>
+
+<!-- Sección Destacados -->
+<section class="featured">
+  <div class="container">
+    <div class="featured-content">
+      <h2 class="section-title">Productos destacados</h2>
+      <div class="products-grid">
+        @for (product of featuredProducts; track product.id) {
+          <div class="product-card">
+            <div class="product-image">
+              <img [src]="product.imagen" [alt]="product.nombre">
+              @if (product.badge) {
+                <span class="product-badge">{{ product.badge }}</span>
+              }
+            </div>
+            <div class="product-info">
+              <h3>{{ product.nombre }}</h3>
+              <p>{{ product.descripcion }}</p>
+              <div class="product-price">{{ formatPrice(product.precio) }}</div>
+              <a [routerLink]="['/producto', product.slug]" class="btn">Ver Detalles</a>
+            </div>
+          </div>
+        }
+      </div>
+      <div class="text-center">
+        <a routerLink="/catalogo" class="btn">Ver todos los productos</a>
+        <a href="https://wa.me/c/573232264555" target="_blank" class="whatsapp-section-btn" aria-label="Consultar por WhatsApp">
+          <i class="fab fa-whatsapp"></i> Consultar catálogo por Whatsapp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/573232264555" class="floating-whatsapp" target="_blank" aria-label="Abrir chat de WhatsApp">
+  <img src="assets/images/ChatBot.png" alt="Chat WhatsApp">
+</a>
